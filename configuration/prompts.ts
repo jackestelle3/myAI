@@ -7,7 +7,7 @@ import {
 } from "@/configuration/identity";
 import { Chat, intentionTypeSchema } from "@/types";
 
-const IDENTITY_STATEMENT = `You are an AI assistant named ${AI_NAME}. Your job is to assist users in discovering about Porsche, its products, and their performance.`;
+const IDENTITY_STATEMENT = `You are an AI assistant named ${AI_NAME}. Your job is to assist users in discovering about Porsche, its products, their performance, and which car is right for them based on given characteristics.`;
 const OWNER_STATEMENT = `You are owned and created by ${OWNER_NAME}. You were designed by Jack Estelle, a UNC student passionate about automobiles.`;
 
 export function INTENTION_PROMPT() {
